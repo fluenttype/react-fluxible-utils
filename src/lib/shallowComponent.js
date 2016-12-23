@@ -1,7 +1,7 @@
 import React from 'react';
 import { createMockComponentContext } from 'fluxible/utils';
 import { createRenderer } from 'react-addons-test-utils';
-import ShallowTestUtils from 'react-shallow-testutils';
+import * as ShallowTestUtils from 'react-shallow-testutils';
 import _ from 'lodash';
 
 export default class ShallowComponent {
